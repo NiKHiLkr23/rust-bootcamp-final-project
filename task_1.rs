@@ -9,14 +9,12 @@ fn concatenate_strings(str1: &str, str2: &str) -> String {
 
 fn main() {
     //  Initialize two String variables in the main function.
-    let string1 = String::from("Hello, ");
-    let string2 = String::from("world!");
+    let string1 = String::from("Getting Started with ");
+    let string2 = String::from("Rust!");
 
     //  Call the concatenate_strings function with string slices of the variables.
     let concatenated_string = concatenate_strings(&string1, &string2);
 
-   //  Print the result to the console.
+    //  Print the result to the console.
     println!("{}", concatenated_string);
-
 }
-
